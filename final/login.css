@@ -1,0 +1,96 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    display: flex;
+    background-repeat: repeat-x;
+    background-size: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100%;
+   
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid red;
+   
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+button {
+    
+    background-color: rgb(237, 66, 172);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #007BFF;
+}
+.MarqueeSpan{
+    color: red;
+    font-size: 26px;
+}
+marquee{
+              color: green;
+              font-size: 20px;
+}
+
+.design_walk_Around{
+    border-right-color: coral;
+    border-left-color: coral;
+    border-top-color: green;
+    border-bottom-color: green;
+    border-style: double;
+    padding: 10px;
+    
+    background-image: url("https://img.freepik.com/premium-photo/foods-background-food-menu-design-wooden-background-flat-lay_35641-1921.jpg");
+   
+}
+.middleEmail{
+    text-align: center;
+    margin: 10px 0px;
+}
+.middlbtn{
+  text-align: center;
+  margin: auto;
+  display: flex;
+}

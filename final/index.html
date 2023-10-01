@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipe || MealDb</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a title="Discover amazing recipes, cooking tips and food inspiration from across the web. From quick family meals to gourmet desserts, we got it all!" href="index.html" class="nav-logo">
+            Food Recipe(MealDb)
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Food Recipe</h1>
+            <h4>no fluff, just recipes</h4>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+      <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h4>recipes</h4>
+          <div class="tags-list">
+            <a href="tag-template.html">Beef (1)</a>
+            <a href="tag-template.html">Breakfast (2)</a>
+            <a href="tag-template.html">Carrots (3)</a>
+            <a href="tag-template.html">Food (4)</a>
+          </div>
+        </div>
+        <!-- end of tag container -->
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Carne Asada</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Greek Ribs</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-4.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Banana Pancakes</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipes list -->
+      </section>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Food Recipe(MealDb)</span> Built by
+        <a href="https://github.com/Noman172590?tab=repositories ">Coding RootNote</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
